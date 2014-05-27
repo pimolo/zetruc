@@ -3,6 +3,18 @@ body {
   font-size: 1em;
 }
 
+::selection {
+  background-color: tomato;
+  opacity: 0.3;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: tomato;
+  opacity: 0.3;
+  color: white;
+}
+/*
 .block {
   position: absolute;
 }
@@ -43,4 +55,34 @@ body {
   height: 286px;
   left: 226px;
   top: 421px;
+}
+*/
+svg {
+  box-sizing: border-box;
+  margin: 8px auto;
+  max-width: calc(100vw - 16px);
+  height: auto;
+  display: block;
+}
+
+@media handheld, screen and (max-height: 500px), (orienation:portrait), {
+  svg {
+    display: none;
+  }
+}
+
+polygon {
+  -webkit-transition: -webkit-transform 1s ease;
+  -moz-transition: -moz-transform 1s ease;
+  -ms-transition: -ms-transform 1s ease;
+  -o-transition: -o-transform 1s ease;
+  transition: transform 1s ease;
+}
+
+#Calque_1 > polygon:hover {
+  -webkit-transform: translate(-1000px, -1000px);
+  -moz-transform: translate(-1000px, -1000px);
+  -ms-transform: translate(-1000px, -1000px);
+  -o-transform: translate(-1000px, -1000px);
+  transform: translate(-1000px, -1000px);
 }
