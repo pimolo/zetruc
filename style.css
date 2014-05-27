@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-size: 1em;
+}
+
+.block {
+  position: absolute;
+}
+
+.red {
+  background-image: url(assets/img/red.png);
+  width: 589px;
+  height: 506px;
+}
+
+.blue {
+  background-image: url(assets/img/blue.png);
+  width: 945px;
+  height: 527px;
+  left: 332px;
+  top: -1px;
+}
+
+.orange {
+  background-image: url(assets/img/orange.png);
+  width: 644px;
+  height: 551px;
+  left: 632px;
+  top: 153px;
+}
+
+.yellow {
+  background-image: url(assets/img/yellow.png);
+  width: 382px;
+  height: 329px;
+  left: 0px;
+  top: 387px;
+}
+
+.black {
+  background-image: url(assets/img/black.png);
+  width: 509px;
+  height: 286px;
+  left: 226px;
+  top: 421px;
+}
