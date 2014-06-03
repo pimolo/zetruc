@@ -79,7 +79,7 @@ polygon {
   transition: transform 1s ease;
 }
 
-#Calque_1 > polygon:hover {
+:target polygon {
   -webkit-transform: translate(-1000px, -1000px);
   -moz-transform: translate(-1000px, -1000px);
   -ms-transform: translate(-1000px, -1000px);
