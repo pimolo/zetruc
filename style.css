@@ -72,11 +72,20 @@ svg {
 }
 
 polygon {
-  -webkit-transition: -webkit-transform 1s ease;
-  -moz-transition: -moz-transform 1s ease;
-  -ms-transition: -ms-transform 1s ease;
-  -o-transition: -o-transform 1s ease;
-  transition: transform 1s ease;
+  -webkit-filter: url(index.html#grayscale);
+  -moz-filter: url(index.html#grayscale);
+  filter: url(index.html#grayscale);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+polygon:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
 }
 
 :target polygon {
