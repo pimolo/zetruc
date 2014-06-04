@@ -187,8 +187,13 @@ g:hover {
 
 @-webkit-keyframes anim5 {
   to { -webkit-transform: translateY(800px); }
-
+}
 
 @-moz-keyframes anim5 {
   to { -moz-transform: translateY(800px); }
+}
 
+.reverse g {
+  animation-direction: reverse;
+  -webkit-animation-direction: reverse;
+}
