@@ -1,8 +1,8 @@
-var calques = $('polygon');
+var calques = $('g');
 console.log(calques);
 calques.each(function() {
   $(this).click(function() {
-    calques.attr('class', '');
+    calques.removeAttr('class');
     var clicked = $(this);
     console.log(clicked[0]);
     // TODO : supprimer ckicked de calques[]
