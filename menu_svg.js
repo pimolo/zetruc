@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  alert("Les technologies utilisées dans ce site ne sont pas très bien supportées par Firefox et IE.\nMerci d'utiliser un navigateur à jour tel que Google Chrome.");
   $('body').addClass('reverse');
   var calques = $('g');
   console.log(calques);

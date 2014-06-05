@@ -65,23 +65,18 @@ svg {
   display: block;
 }
 
-@media handheld, screen and (max-height: 500px), (orienation:portrait), {
-  svg {
-    display: none;
-  }
-}
-
 g {
-  -webkit-filter: url(index.html#grayscale);
+/*  -webkit-filter: url(index.html#grayscale);
   -moz-filter: url(index.html#grayscale);
   filter: url(index.html#grayscale);
+*/  cursor: pointer;
 }
 
 g:hover {
-  -webkit-filter: none;
+/*  -webkit-filter: none;
   -moz-filter: none;
   filter: none;
-}
+*/}
 
 .anim1 {
   animation: anim1 1s cubic-bezier(1,0,1,0);
@@ -196,4 +191,6 @@ g:hover {
 .reverse g {
   animation-direction: reverse;
   -webkit-animation-direction: reverse;
+  -moz-animation-direction: reverse;
+  -o-animation-direction: reverse;
 }
