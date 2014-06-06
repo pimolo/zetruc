@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'DIN-Bold';
+  src: url(../DIN/DINB____.ttf);
+}
+
+@font-face {
+  font-family: 'DIN-Light';
+  src: url(../DIN/DINL____.ttf);
+}
+
+@font-face {
+  font-family: 'DIN-MediumAlternate';
+  src: url(../DIN/DINMA___.ttf);
+}
+
+@font-face {
+  font-family: 'DIN-LightAlternate';
+  src: url(../DIN/DINLA___.ttf);
+}
+
+@font-face {
+  font-family: 'DIN-Black';
+  src: url(../DIN/DIN_Black.ttf);
+}
+
+@font-face {
+  font-family: 'DIN-Medium';
+  src: url(../DIN/DINM____.ttf);
+}

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $('object').hide();
   $('body').addClass('reverse');
   var calques = $('g');
   calques.each(function() {
@@ -13,6 +14,9 @@ $(document).ready(function() {
           $(calques[i]).attr('class', 'anim' + (i+1));
         }
       };
+      // $('object').fadeOut();
+      var contenu = clicked.data('contenu');
+      $('#' + contenu).toggle('slow');
     });
   });
 });
