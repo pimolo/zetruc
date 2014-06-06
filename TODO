@@ -1,0 +1,2 @@
+* Mettre le filtre grayscale dans un svg annexe
+* Supporter la police pour Internet Explorer (+ empêcher le chargement des polices "inline" avec des classes conditionnelles)
