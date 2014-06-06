@@ -1,3 +1,5 @@
 *.ai
 *.psd
 *.svg
+!assets/svg/**
+jquery.min.js

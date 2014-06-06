@@ -1,7 +1,7 @@
 @-moz-document url-prefix() {
   @font-face {
     font-family: "BowlingShoes";
-    src: url('assets/BowlingShoes.ttf');
+    src: url('../BowlingShoes.ttf');
   }
 }
 
@@ -36,9 +36,9 @@ object {
 }
 
 g {
-  -webkit-filter: url(index.html#grayscale);
-  -moz-filter: url(index.html#grayscale);
-  filter: url(index.html#grayscale);
+  -webkit-filter: url(../../index.html#grayscale);
+  -moz-filter: url(../../index.html#grayscale);
+  filter: url(../../index.html#grayscale);
   cursor: pointer;
   -webkit-transition: -webkit-transform 1s cubic-bezier(1,0,0,1);
   -moz-transition: -moz-transform 1s cubic-bezier(1,0,0,1);
