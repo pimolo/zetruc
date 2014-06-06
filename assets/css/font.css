@@ -27,3 +27,7 @@
   font-family: 'DIN-Medium';
   src: url(../DIN/DINM____.ttf);
 }
+
+text {
+  text-transform: uppercase;
+}
